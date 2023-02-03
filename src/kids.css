@@ -1,0 +1,66 @@
+.kids{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    border-top: 6px solid rgb(71, 67, 67);;
+    border-bottom: 6px solid rgb(71, 67, 67);;
+}
+.kids-left-container{
+    color: white;
+    height: inherit;
+    width: 60%;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.kids-left-container h1{
+   
+    font-size: 3rem;
+    padding: 5px;
+    margin-bottom: 10px;
+   
+}
+.kids-left-container h3{
+    margin-top: 10px;
+    margin-left: 13px;
+    width: 468px;
+    font-size: 1.2rem;
+}
+
+.kids-right-container{
+    height: inherit;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.kids-logo{
+    height: 200px;
+    width: 320px;
+    border: 2px solid rgb(6, 6, 123);
+    box-shadow: rgb(6, 6, 123) 0px 54px 55px, rgb(6, 6, 123) 0px -12px 30px, rgb(6, 6, 123) 0px 4px 6px, rgb(6, 6, 123) 0px 12px 13px, rgb(6, 6, 123) 0px -3px 5px;
+}
+@media only screen and (max-width: 981px) {
+    .kids{
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .kids-logo{
+        height: 123px;
+    }
+    .kids-left-container h3{
+        width: 240px;
+        font-size: 1.3rem;
+    }
+    .kids-left-container h1{
+        margin: 0;
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,73 @@
+.mobile{
+    
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    border-top: 6px solid rgb(71, 67, 67);;
+    border-bottom: 6px solid rgb(71, 67, 67);;
+}
+.mobile-left-container{
+    color: white;
+    height: inherit;
+    width: 60%;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mobile-left-container h1{
+   
+    font-size: 2.5rem;
+    padding: 5px;
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 452px;
+   
+}
+.mobile-left-container h3{
+    margin-top: 10px;
+    margin-left: 13px;
+    width: 444px;
+    font-size: 1.2rem;
+}
+
+.mobile-right-container{
+    height: inherit;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mobile-logo{
+   
+    height: 200px;
+    width: 320px;
+    border: 2px solid rgb(245, 48, 81);
+    box-shadow: rgb(245, 48, 81) 0px 54px 55px, rgb(245, 48, 81) 0px -12px 30px, rgb(245, 48, 81) 0px 4px 6px, rgb(245, 48, 81) 0px 12px 13px, grey 0px -3px 5px;
+}
+@media only screen and (max-width: 981px) {
+    .mobile{
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .mobile-logo{
+        height: 134px;
+        margin-top: 10px;
+    }
+    .mobile-left-container h3{
+        width: 247px;
+        font-size: 1.3rem;
+    }
+    .mobile-left-container h1{
+        margin: 0;
+        font-size: 1.8rem;
+        width: 252px;
+    }
+}

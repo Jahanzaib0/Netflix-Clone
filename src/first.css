@@ -1,0 +1,85 @@
+
+.first{
+    height: 600px;
+    width: 100%;
+    /* background-image: URL(); */
+    background: url('./img/cover.jpg');
+    background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+}
+.first-textBox{
+    margin: 43px 3px 10px 3px;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+.first-textBox h1 {
+    margin: 4px 4px;
+    padding: 3px;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.first-textBox h3 {
+  margin: 4px 4px;
+  padding: 3px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.first-textBox p {
+  margin: 4px 4px;
+  padding: 3px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.first-input{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin: 23px 3px 3px 3px;
+}
+.first-input > input{
+ width: 65%;
+ height: 50px;
+ border-radius: 2px;
+ padding: 3px;
+ padding: 2px;
+ border-radius: 2px;
+ font-size: 1.3rem;
+ font-weight: bolder;
+}
+.first-input > button{
+ width: 35%;
+ height: 57px;
+ background-color: red;
+ color: white;
+ font-size: 1.3rem;
+ font-weight: bold;
+ border-radius: 2px;
+ padding: 3px;
+ cursor: pointer;
+} 
+@media only screen and (max-width: 655px) {
+    body {
+      background-color: rgb(101, 101, 101);
+    }
+    .first-input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .first-input > button{
+        width: 35%;
+        margin-top: 4px;
+    }
+    .first-textBox h1{ text-align: center; font-size: 3rem;}
+    .first-textBox h3{text-align: center;}
+    .first-textBox p{text-align: center;}
+  }

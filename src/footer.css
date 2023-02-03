@@ -1,0 +1,36 @@
+
+.foot-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.foot-con > h4{
+    margin-top: 12px;
+    font-size: 1.3rem;
+    color: rgb(71, 67, 67);
+    text-align: start;
+}
+.first-footer {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 60%;
+    height: 200px;
+  }
+  .grid-item {
+    background-color:black;
+    color: rgb(71, 67, 67);
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    /* font-size: 10px; */
+    text-align: start;
+    cursor: pointer;
+  }
+  .grid-item:hover{
+    text-decoration: underline;
+    color: rgb(71, 67, 67);;
+  }

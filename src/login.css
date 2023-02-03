@@ -1,0 +1,80 @@
+.log{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./img/cover.jpg');
+   
+    
+
+}
+.Lnav{
+    height: 70px;
+    margin-left: 23px;
+}
+.Login-UI {
+    display: flex;
+    justify-content: center;
+    padding: 18px 12px 18px 12px;
+   
+}
+.UI-container{
+    margin: 18px 12px 18px 12px;
+   min-height: 400px;
+    width: 30%;
+    background-color: rgb(2, 2, 2, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.UI-h3{
+margin: 8px 12px 8px 12px;
+font-size: 1.3rem;
+}
+.in-UI{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+}
+.in-UI input{
+  width: 70%;
+  height: 50px;
+  margin: 6px 6px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.UI-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    width: 100%;
+}
+.UI-btn div{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    width: 70%;
+}
+.btn-sigIn{
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+  width: 100%;
+  height: 50px;
+  margin: 18px 6px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1079px) {
+    .UI-container{
+        width: max-content;
+    }
+}

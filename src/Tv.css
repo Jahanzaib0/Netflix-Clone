@@ -1,0 +1,66 @@
+.Tv{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    border-top: 12px solid rgb(71, 67, 67);;
+    border-bottom: 6px solid rgb(71, 67, 67);;
+}
+.tv-left-container{
+    color: white;
+    height: inherit;
+    width: 60%;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tv-left-container h1{
+   
+    font-size: 3.5rem;
+    padding: 5px;
+    margin-bottom: 10px;
+   
+}
+.tv-left-container h3{
+    margin-top: 10px;
+    margin-left: 13px;
+    width: 444px;
+    font-size: 1.2rem;
+}
+
+.tv-right-container{
+    height: inherit;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tv-logo{
+    height: 200px;
+    width: 320px;
+    border: 2px solid grey;
+    box-shadow: grey 0px 54px 55px, grey 0px -12px 30px, grey 0px 4px 6px, grey 0px 12px 13px, grey 0px -3px 5px;
+}
+@media only screen and (max-width: 981px) {
+    .Tv{
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .tv-logo{
+        height: 123px;
+    }
+    .tv-left-container h3{
+        width: 230px;
+        font-size: 1.3rem;
+    }
+    .tv-left-container h1{
+        margin: 0;
+        font-size: 1.8rem;
+    }
+}
